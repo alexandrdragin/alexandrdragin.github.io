@@ -357,7 +357,7 @@ th {
   font-family: 'Avant Garde';
   font-style: normal;
   font-weight: 700;
-  src: local("Avant Garde"), local("Avant Garde"), url("../fonts/HUGEAvantGardeBold.ttf") format("truetype"), url("../fonts/HUGEAvantGardeBold.woff") format("woff"); }
+  src: local("Avant Garde"), url("../fonts/HUGEAvantGardeBold.ttf") format("truetype"), url("../fonts/HUGEAvantGardeBold.woff") format("woff"); }
 
 .index {
   margin-left: 10px;
@@ -365,7 +365,7 @@ th {
 
 .just-text {
   font-family: "Avant Garde",sans-serif;
-  font-size: 13.5vw;
+  font-size: 10.5vw;
   line-height: 1.2;
   letter-spacing: -0.06em;
   font-weight: bold; }
@@ -374,6 +374,6 @@ th {
   color: black;
   text-decoration: none;
   position: fixed;
-  right: 4vw;
+  right: 6vw;
   bottom: 1%;
   font-family: "Open Sans",sans-serif; }
