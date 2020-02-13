@@ -357,9 +357,7 @@ th {
   font-family: 'Avant Garde';
   font-style: normal;
   font-weight: 700;
-  src: local("Avant Garde"), url("../fonts/HUGEAvantGardeBold.ttf") format("truetype"), url("../fonts/HUGEAvantGardeBold.woff") format("woff"); }
-
-.index {
+  src: local("Avant Garde"), url("../fonts/CSTMXprmntl03-Medium.woff2");
   margin-left: 10px;
   margin-top: 20px; }
 
