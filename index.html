@@ -1,25 +1,135 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Саша — дизайн-менеджер</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #0a0a0a;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-    }
-    img {
-      width: 100%;
-      max-width: 1440px;
-      height: auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Саша — дизайн-менеджер</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <img src="images/portfolio.png" alt="Саша — дизайн-менеджер в Озон Банке">
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <img src="images/avatar.png" alt="Саша" class="avatar">
+            <h1>Саша управляет дизайн командами в <a
+                    href="https://apps.apple.com/ru/app/ozon-%D0%B1%D0%B0%D0%BD%D0%BA/id1629869891" class="link"
+                    target="_blank" rel="noopener">Озон Банке</a></h1>
+            <p class="subtitle">а до этого делал тоже самое в Дом.РФ, Chulakov и Везет</p>
+        </header>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <h2 class="section-title">Избранные проекты</h2>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <p class="project-title">Развитие главной страницы приложения</p>
+                <div class="gallery gallery-fixed-height">
+                    <div class="gallery-item">
+                        <img src="images/1-1.png" alt="Скриншот 1">
+                        <span class="number">23</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/1-2.png" alt="Скриншот 2">
+                        <span class="number">24</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/1-3.png" alt="Скриншот 3">
+                        <span class="number">25</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/1-4.png" alt="Скриншот 4">
+                        <span class="number">26</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/1-5.png" alt="Скриншот 5">
+                        <span class="number">26+</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <p class="project-title">Новая программа лояльности и редизайн страницы Выгода</p>
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="images/2-1.png" alt="Скриншот 1">
+                    </div>
+                    <div class="gallery-arrow">
+                        <svg width="120" height="12" viewBox="0 0 120 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 6H119M119 6L113 1M119 6L113 11" stroke="currentColor" stroke-width="1" />
+                        </svg>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/2-2.png" alt="Скриншот 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/2-3.png" alt="Скриншот 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <p class="project-title">Банкоматы Ozon Банка</p>
+                <div class="gallery gallery-wide">
+                    <div class="gallery-item">
+                        <img src="images/3-1.png" alt="Скриншот 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/3-2.png" alt="Скриншот 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/3-3.png" alt="Скриншот 3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/3-4.png" alt="Скриншот 4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Description -->
+        <section class="section">
+            <div class="text">
+                А еще могу рассказать о том как работал над B2C стримами: Счета, Платежи и переводы, Оплата по QR,
+                Цифровый рубль, Лояльность, Накопительные продукты(Челенджди и SNBL), Ивестиции и ЦФА, Платежные
+                инструменты, Привлечение, Новые продукты, Новые сегменты, Поиск, Чат, PFM, Безопасность, Реферальная
+                программа, Aвторизация и Озон Чек (приложение для представителей)
+            </div>
+            <div class="text">
+                И, конечно, и про бизнес результаты, и роль руководителя: стратегия отдела, внедрение ai инструментов,
+                масшабирование и поддержание консистентности решений, оргструктуру, развитие ic и лидеров и тд
+            </div>
+        </section>
+
+        <!-- Talks Section -->
+        <section class="section">
+            <h2 class="section-title">Свежие выступления</h2>
+            <div class="talk">
+                Стачка (Ульяновск) и Дизайн Выходные (Казань) 2025 — <a
+                    href="https://www.youtube.com/watch?v=DoldLQfoGAA&t=1305s" class="link" target="_blank"
+                    rel="noopener">Minimal Lovable Product</a>
+            </div>
+            <div class="talk">
+                Натворили (Краснодар) 2025 — <a href="https://www.youtube.com/watch?v=6juqy5RQnqY&t=133s" class="link"
+                    target="_blank" rel="noopener">Редизайн Озон Банка</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="https://t.me/adragin" class="link" target="_blank" rel="noopener">tg</a> /
+            <a href="https://linkedin.com/in/adragin" class="link" target="_blank" rel="noopener">linked</a> /
+            <a href="https://notion.so" class="link" target="_blank" rel="noopener">track record (notion)</a>
+        </footer>
+    </div>
 </body>
+
 </html>
