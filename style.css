@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+/* Header */
+.header {
+  margin-bottom: 60px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 16px;
+}
+
+/* Links */
+.link {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 48px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  border-left: 2px solid #fff;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 40px;
+}
+
+.project-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.gallery-item {
+  flex-shrink: 0;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 140px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.gallery-wide .gallery-item img {
+  width: 160px;
+}
+
+.number {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+  margin-top: 8px;
+}
+
+/* Text */
+.text {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 16px;
+}
+
+/* Talks */
+.talk {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+/* Scrollbar */
+.gallery::-webkit-scrollbar {
+  height: 4px;
+}
+
+.gallery::-webkit-scrollbar-track {
+  background: #222;
+  border-radius: 2px;
+}
+
+.gallery::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 2px;
+}
